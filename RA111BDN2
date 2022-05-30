@@ -1,37 +1,27 @@
 //Read size (N) of an array A. Enter elements of the array. First print all 
-positive
-//elements then negative elements.
-//
-//#include<stdio.h>
-//
-//int main()
-//{
-// //let's assume the maximum array size as 100.
-// int arr[100],size,i;
-//
-// //Get size input from user
-// printf("Enter array size\n");
-// scanf("%d",&size);
-//
-// //Get all elements using for loop and store it in array
-// printf("Enter array elements\n");
-// for(i = 0; i < size; i++)
-// scanf("%d",&arr[i]);
-//
-// 
-// printf("Elements are\n");
-// for(i = 0; i < size; i++)
-// {
-// 
-// if(arr[i] > 0)
-// printf("%d",arr[i]);
-// }
-// for(i = 0; i < size; i++)
-// {
-// 
-// if(arr[i] < 0)
-// printf("%d",arr[i]);
-// }
-//
-// return 0;
-//}
+positive elements then negative elements.
+#include<stdio.h>
+int main()
+{
+//let's assume the maximum array size as 100.
+int arr[100],size,i;
+//Get size input from user
+printf("Enter array size\n");
+scanf("%d",&size);
+//Get all elements using for loop and store it in array
+printf("Enter array elements\n");
+for(i = 0; i < size; i++)
+scanf("%d",&arr[i]); 
+printf("Elements are\n");
+for(i = 0; i < size; i++)
+{ 
+if(arr[i] > 0)
+printf("%d",arr[i]);
+}
+for(i = 0; i < size; i++)
+{ 
+if(arr[i] < 0)
+printf("%d",arr[i]);
+}
+return 0;
+}
